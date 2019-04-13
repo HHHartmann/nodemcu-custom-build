@@ -1,3 +1,5 @@
+dist: xenial
+
 language: cpp
 git:
   depth: 500
@@ -97,9 +99,4 @@ notifications:
       on_success: never
       on_failure: always
       on_start: never
-
-branches:
-  only:
-    - builds
-    - master
 
